@@ -16,9 +16,21 @@ const SellerSection = () => {
 
           {SELLER__DATA.map((item) => (
             <Col lg="2" md="3" sm="4" xs="6" key={item.id} className="mb-4">
-              <div className="single__seller-card d-flex align-items-center gap-3">
+              <div className="single__seller-card d-flex align-items-center gap-3"
+               data-aos="zoom-in-up"
+               data-aos-offset="300"
+               data-aos-delay="50"
+               data-aos-duration="5000"
+              
+              >
                 <div className="seller__img">
-                  <img src={item.sellerImg} alt="" className="w-100" />
+                  <img src={item.sellerImg} alt="" className="w-100" 
+                  data-aos="zoom-in-up"
+                  data-aos-offset="300"
+                  data-aos-delay="50"
+                  data-aos-duration="2000"
+                  
+                  />
                 </div>
 
                 <div className="seller__content">
